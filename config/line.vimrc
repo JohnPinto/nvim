@@ -1,4 +1,4 @@
-" All status line configuration goes here
+" Configurações da barra inferior
 
 set cmdheight=1
 set display+=lastline
