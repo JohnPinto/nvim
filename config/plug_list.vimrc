@@ -12,5 +12,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-rhubarb'
+Plug 'dart-lang/dart-vim-plugin'
 
 call plug#end()
