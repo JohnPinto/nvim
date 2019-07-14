@@ -12,9 +12,9 @@ set noshowmode " hide default mode text (e.g. INSERT) as airline already display
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1  " buffers at the top as tabs
 " let g:airline#extensions#tabline#show_tabs=0
-let g:airline#extensions#tabline#show_tab_type=0
+let g:airline#extensions#tabline#show_tab_type=1
 let g:airline#extensions#tmuxline#enabled=0
-let g:airline_theme = 'luna'
+let g:airline_theme = 'gruvbox'
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
@@ -42,13 +42,3 @@ let g:airline#extensions#tagbar#enabled     = 0
 let g:airline#extensions#virtualenv#enabled = 0
 let g:airline#extensions#whitespace#enabled = 0
 
-" tmuxline config
-" let g:tmuxline_preset = {
-"         \ 'a': '#S',
-"         \ 'b': '#F',
-"         \ 'c': '#W',
-"         \ 'win': ['#I', '#W'],
-"         \ 'cwin': ['#I', '#W'],
-"         \ 'x': '#h',
-"         \ 'y': '%b %d',
-" \ 'z': '%R'}

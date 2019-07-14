@@ -12,6 +12,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-rhubarb'
-Plug 'dart-lang/dart-vim-plugin'
+Plug 'tpope/vim-sensible'
+Plug 'morhetz/gruvbox'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
