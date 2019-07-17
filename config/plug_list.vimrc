@@ -15,5 +15,9 @@ Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-sensible'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'Yggdroot/indentLine'
+Plug 'joshdick/onedark.vim'
+Plug 'kshenoy/vim-signature'
+
 
 call plug#end()

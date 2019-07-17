@@ -1,5 +1,4 @@
 " Configurações de plugins
-" Gruvbox
 colorscheme gruvbox
 
 " coc-nvim
@@ -15,3 +14,6 @@ inoremap <silent><expr> <TAB>
 	endfunction
 
 let g:coc_snippet_next = '<tab>'
+" vim-signature
+let g:SignatureMarkerTextHLDynamic = 1
+let g:SignatureMarkTextHLDynamic = 1
